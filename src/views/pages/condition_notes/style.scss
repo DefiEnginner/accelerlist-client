@@ -1,0 +1,40 @@
+.condition-form {
+  ol {
+    padding-left: 10px;
+    li {
+      padding: 10px;
+    }
+  }
+}
+
+.pt-0 {
+  padding-top: 0;
+}
+.pr-10 {
+  padding-right: 10px;
+}
+.pull-right {
+  float: right;
+}
+.edit-mode.condition-note {
+  &.card {
+    background-color: #dddddd;
+    border: 2px dashed #929292;
+  }
+  .icon-btn {
+    display: none;
+  }
+}
+.error {
+  input,
+  textarea,
+  select {
+    border: 1px solid red;
+  }
+}
+.condition-note.card {
+  border: 2px dashed #cfcfd0;
+  .card-body {
+    padding: 10px;
+  }
+}

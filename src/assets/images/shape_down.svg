@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="106px" viewBox="0 0 1024 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-1842.000000, -697.000000)" fill-rule="nonzero" fill="#EFFCE9">
+            <g id="Group-2" transform="translate(1842.000000, 697.000000)">
+                <g id="shape_down">
+                    <path d="M0,0.571051 C228.975116,64.049727 399.641783,95.789066 512,95.789066 C624.358217,95.789066 795.024884,64.037783 1024,0.535216 L1024,106 L0,106 L0,0.571051 Z" id="Rectangle-3"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

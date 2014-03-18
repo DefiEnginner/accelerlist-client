@@ -1,0 +1,8 @@
+// Color System
+$white:                           #fff !default;
+$black:                           #000 !default;
+
+// Popovers
+$popover-bg:                        $white !default;
+$popover-header-bg:                 darken($popover-bg, 3%) !default;
+$popover-arrow-height:              .5rem !default;

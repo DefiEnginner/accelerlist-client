@@ -1,0 +1,102 @@
+@import "./partials/general";
+@import "./partials/input";
+@import "./partials/table";
+
+.batch-metric {
+    display: flex;
+    align-items: center;
+
+    .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45px;
+        height: 45px;
+        margin-right: 10px;
+        background-color: #D9E0D5;
+        text-align: center;
+        border-radius: 50%;
+        vertical-align: middle;
+    }
+    .value {
+        display: block;
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    .title {
+        display: block;
+        font-size: 12px;
+        color: #858C82;
+    }
+}
+
+.batch-metric-row {
+    display: flex;
+
+    .batch-metric {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+.batch-metric-group {
+    .batch-metric-row {
+        margin-bottom: 30px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.table-closed-batches {
+    &.table-striped tbody tr {
+        &:nth-of-type(odd) {
+            background-color: #fff;
+        }
+
+        &:nth-of-type(even) {
+            background-color: #FAFBF9;
+        }
+    }
+
+    .thead-default th {
+        color: #3A3F37;
+        font-size: 13px;
+        background-color: #F1F4EF;
+        border-bottom: 1px solid #D9E0D5;
+
+        > a {
+            color: #3A3F37;
+        }
+    }
+
+    tbody > tr > td {
+        padding: 10px 5px;
+        vertical-align: middle;
+
+        a {
+            margin: 0;
+            color: #2962FF;
+
+            &:hover,
+            &:focus {
+                color: darken(#2962FF, 5%);
+            }
+        }
+
+        .badge:first-child {
+            margin-left: 0;
+        }
+    }
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.page-link {
+    border: 0;
+    border-radius: 3px;
+}

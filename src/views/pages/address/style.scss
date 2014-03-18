@@ -1,0 +1,51 @@
+@import "../../../shared/variables";
+
+.added-address {
+  padding: 10px 0px 10px 10px;
+  background: #d3d3d352;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+.icon-btn-container {
+  align-self: center;
+  cursor: pointer;
+  .icon-btn {
+    background: white;
+    width: fit-content;
+    padding: 8px;
+    border-radius: 5px;
+    float: right;
+  }
+}
+.form-group {
+  .pl-0 {
+    padding-left: 0;
+  }
+  .pr-0 {
+    padding-right: 0;
+  }
+}
+.form-control[invalid="true"] {
+  border-color: #dc3545;
+}
+.col-form-label,
+.prev-added-adress {
+  color: $md-grey-700;
+}
+.title {
+  font-weight: 500;
+}
+.sub-title,
+.col-form-label,
+.prev-added-adress .heading {
+  font-weight: 600;
+}
+.prev-added-adress .heading {
+  font-size: 12px;
+}
+.invalid-feedback {
+  color: #dc3545;
+}
+.address-view .card-body {
+  padding: 25px;
+}

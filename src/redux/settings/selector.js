@@ -1,0 +1,1 @@
+export const printerDefaultsSelector = (state) => state.Settings.get('printerDefaults');

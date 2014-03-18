@@ -1,0 +1,9 @@
+.owl-dots {
+  .owl-dot.active span, .owl-dot:hover span {
+    background: #63CC2F !important;
+  }
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+  background: transparent;
+}

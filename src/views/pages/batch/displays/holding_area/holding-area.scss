@@ -1,0 +1,64 @@
+@import "../../../../../shared/partials/general";
+@import "../../../../../shared/partials/input";
+@import "../../../../../shared/partials/table";
+@import "../../../../../shared/warehouse-colors";
+
+.radio-warehouse {
+    .warehouse-badge {
+        transition: all .2s ease-out;
+        padding-top: 9px !important;
+        padding-bottom: 9px !important;
+        font-size: 12px;
+        background-color: #fff;
+        color: #4d4d4d;
+        border: 1px solid #ccc;
+    }
+
+    &:hover,
+    &.active {
+        .warehouse-badge {
+            color: #fff;
+
+            @each $name, $hex in $colorMap {
+                &.#{$name} {
+                    background-color: $hex;
+                    border-color: $hex;
+                }
+            }
+        }
+    }
+
+    input[type="radio"]:checked {
+        color: #fff;
+
+        @each $name, $hex in $colorMap {
+            + .#{$name} {
+                background-color: $hex;
+                border-color: $hex;
+            }
+        }
+    }
+
+}
+
+.quick-add-new-batch {
+    display: none;
+
+    .btn-add-new-batch {
+        .icon,
+        span {
+            vertical-align: middle;
+        }
+
+        .icon {
+            display: none;
+        }
+    }
+}
+
+.table-top-controls {
+    .message {
+        display: none;
+        margin-top: 15px;
+    }
+}

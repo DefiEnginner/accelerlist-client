@@ -1,0 +1,19 @@
+.leaderboard-table {
+  td {
+    line-height: 2;
+  }
+
+  .user {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+  }
+
+  .avatar {
+    margin-right: .5rem;
+  }
+
+  .rank-number {
+    margin-left: .7rem;
+  }
+}

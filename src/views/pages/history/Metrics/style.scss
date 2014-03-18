@@ -1,0 +1,39 @@
+.metric-group {
+  flex: 0 0 50%;
+}
+
+.metric-item-inline {
+  margin-bottom: .6rem;
+
+  .value {
+    display: inline;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  
+  .title {
+    display: inline;
+    margin-left: .3rem;
+    color: #858C82;
+    font-size: .9rem;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 1480px) {
+  .metric-group {
+    flex: 0 0 53%;   
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .metric-group {
+    flex: 0 0 43%;   
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .metric-group {
+    flex: 0 0 32%;   
+  }
+}

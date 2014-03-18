@@ -1,0 +1,153 @@
+// HERE WE WRITE SMALL REUSABLE PART OF DESIGN LIKE BTNS, INPUTS, LISTS:
+
+// COLORS 
+.c-white {
+  color: #FFFFFF;
+}
+.c-blue {
+  color: #1C384A;
+}
+.c-grey {
+  color: #4A4A4A;
+}
+.c-green {
+  color: #63CC2F;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+
+//TEXT
+.text {
+  &.md {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  &.lg {
+    font-size: 24px;
+    line-height: 35px;
+  }
+}
+
+
+//LIST
+.menu-li {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+//HELPERS
+.center {
+  text-align: center;
+}
+.bold {
+  font-weight: bold !important;
+}
+.medium {
+  font-weight: 500;
+}
+
+body {
+  &.open {
+    overflow: hidden;
+  }
+}
+
+.light-top-margin {
+    margin-top:5px;
+}
+
+.light-bottom-margin {
+    margin-bottom:5px;
+}
+
+.light-left-margin {
+    margin-left:5px;
+}
+
+.light-right-margin {
+    margin-right:5px;
+}
+
+.full-font {
+    font-size:100% !important;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.medium-top-margin {
+    margin-top:10px;
+}
+
+.medium-bottom-margin {
+    margin-bottom:10px;
+}
+
+.medium-right-margin {
+    margin-right: 10px;
+}
+
+.medium-left-margin {
+    margin-left: 10px;
+}
+
+.float-right {
+    float: right;
+}
+
+.light-negative-margin-top {
+    margin-top:-5px;
+}
+
+.no-borders {
+    border: 0px;
+}
+
+.lg-1-5 { 
+    max-width:12.5%; 
+}
+
+.lg-2-5 { 
+    max-width:20.83333%; 
+}
+
+.lg-3-5 { 
+    max-width:29.16667%; 
+}
+
+.lg-4-5 {
+    max-width: 37.5;
+}
+
+.lg-5-5 {
+    max-width: 45.83333%;
+}
+
+.lg-6-5 {
+    max-width: 45.83333%;
+}
+
+.lg-7-5 {
+    max-width: 54.166667%;
+}
+
+.lg-8-5 {
+    max-width: 70.83333%;
+}
+
+.lg-9-5 {
+    max-width: 79.16667%;
+}
+
+.lg-10-5 {
+    max-width: 87.5%
+}
+
+.lg-11-5 {
+    max-width: 95.8333%;
+}
+

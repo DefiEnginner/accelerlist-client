@@ -1,0 +1,75 @@
+.checkmark {
+    width: 20px;
+    height: 20px;
+}
+
+.checkmark {
+    background-color: #fff;
+    border: 1px solid #CECECE;
+}
+
+.check.partial-selected .checkmark:before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 2px;
+    position: relative;
+    bottom: 2px;
+    background-color: #00C853;
+}
+
+.container-check {
+    padding-left: 15px;
+}
+
+.container-check input {
+    display: none;
+}
+
+.container-check input:checked~.checkmark {
+    background-color: #00C853;
+    border-color: #00C853;
+}
+
+.container-check input:checked~.checkmark:after {
+    border-color: #fff;
+}
+
+.container-check .checkmark:after {
+    left: 6px;
+    top: 1px;
+    border-color: #00C853;
+
+}
+
+.radio-warehouse {
+    cursor: pointer;
+
+    input[type="radio"] {
+        display: none;
+
+        &:checked {
+            + .warehouse-badge {
+                background-color: #4d4d4d;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.form-control {
+    &:focus {
+        border-color: rgba(0,0,0,.15);
+    }
+}
+
+.input-group {
+    .form-control:not(:first-child):not(:last-child) {
+        border-right: 0;
+    }
+}
+
+.input-group-addon {
+    background-color: #fff;
+    border-left: 0;
+}

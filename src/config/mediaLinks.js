@@ -1,0 +1,10 @@
+export const boxContentManagerVideoWistiaID = "g5jwdhr457";
+export const HeadwayAccount = "Jlw5o7";
+export const frontChatUserIdentity = "fef4eb07437a75adbc9c934cc67e7bb6";
+export const wootricAccountToken = "NPS-b03b54db";
+export const incomeReportUrl = '/dashboard/accounting/income_report/view';
+export const featureRequestsURL = "https://accelerlist.upvoty.com/b/feature-requests/";
+export const accelerlistHelpDocsURL = "https://accelerlist.helpdocs.io/";
+export const creatingShippingTemplatesHelpDocsURL = "https://accelerlist.helpdocs.io/article/pdp5bo2htt-creating-shipping-templates";
+export const customSkuHelpDocsURL = "https://accelerlist.helpdocs.io/article/nf52etrked-creating-custom-skus";
+export const stripePublicKey = 'pk_live_X7oiEfIKSOgrcFxqldQ5aOY6';

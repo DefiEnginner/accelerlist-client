@@ -1,0 +1,12 @@
+build
+package-lock.json
+node_modules
+.DS_Store
+src/index.css
+src/app.css
+src/views/**/*.css
+src/shared/**/*.css
+# src/views/**/__snapshots__
+# src/shared/**/__snapshots__
+yarn-error.log
+.env

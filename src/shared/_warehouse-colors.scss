@@ -1,0 +1,261 @@
+$colorMap: (
+    // --- United States --- //
+    // Alabama
+    BSM1: #D69905,
+    MOB1: #D69905,
+
+    // Arizona
+    PHX3: #5BC805,
+    PHX6: #5BC805,
+    PHX7: #5BC805,
+    TUS1: #5BC805,
+    PHX5: #5BC805, 
+    PHX9: #5BC805, 
+    TUS2: #5BC805,
+
+    // California
+    AMZ2: #05D627, 
+    OAK3: #05D627,
+    OAK4: #05D627,
+    SJC7: #05D627,
+    OAK6: #05D627,
+    OAK5: #05D627,
+    ONT2: #05D627,
+    ONT5: #05D627,
+    SNA7: #05D627,
+    SNA8: #05D627,
+    ONT6: #05D627,
+    ONT9: #05D627,
+    LGB4: #05D627,
+    SNA4: #05D627,
+    LGB6: #05D627,
+    SNA6: #05D627,
+    SNA9: #05D627,
+    LGB3: #05D627,
+    FAT1: #05D627,
+    SMF1: #05D627,
+    XUSD: #05D627,
+
+    // Colorado
+    DEN2: #05D68C,
+    DEN3: #05D68C,
+
+    // Connecticut
+    BDL1: #05C5D6,
+
+    // Delaware
+    PHL1: #0598D6,
+    PHL7: #0598D6,
+
+    // Florida
+    MCO1: #055ED6,
+    MCO5: #055ED6,
+    MIA1: #055ED6,
+    MIA5: #055ED6,
+    TPA1: #055ED6,
+    TPA2: #055ED6,
+    JAX2: #055ED6,
+    JAX3: #055ED6,
+    JAX5: #055ED6,
+
+    // Georgia
+    MGE1: #0A35B7,
+    MGE3: #0A35B7,
+    ATL6: #0A35B7,
+    ATL8: #0A35B7,
+    ATL7: #0A35B7,
+
+    // Illinois
+    MDW2: #614FCB,
+    MDW4: #614FCB,
+    MDW5: #614FCB,
+    STL4: #614FCB,
+    STL6: #614FCB,
+    STL7: #614FCB,
+    MDW7: #614FCB,
+
+    // Indiana
+    IND1: #D66205,
+    XUSE: #D66205,
+    IND2: #D66205,
+    IND3: #D66205,
+    IND5: #D66205,
+    IND4: #D66205,
+    SDF8: #D66205,
+
+    // Kansas
+    MKC6: #D63705,
+    MCI5: #D63705,
+    MKC4: #D63705,
+
+    // Kentucky
+    SDF1: #C70303,
+    SDF2: #C70303,
+    SDF4: #C70303,
+    SDF6: #C70303,
+    SDF7: #C70303,
+    SDF9: #C70303,
+    CVG1: #C70303,
+    CVG2: #C70303,
+    CVG3: #C70303,
+    CVG5: #C70303,
+    CVG7: #C70303,
+    LEX1: #C70303,
+    LEX2: #C70303,
+
+    // Maryland
+    BWI2: #278463,
+    BWI5: #278463,
+    MDT2: #278463,
+
+    // Massachusetts
+    BOS7: #648347,
+    BOS5: #648347,
+
+    // Michigan
+    DET1: #2D708D,
+    DTW5: #2D708D,
+
+    // Minnesota
+    MSP1: #AC55D1,
+    MSP5: #AC55D1,
+
+    // Nevada
+    LAS2: #C01B7B,
+    LAS6: #C01B7B,
+    RNO1: #C01B7B,
+    RNO4: #C01B7B,
+
+    // New Hampshire
+    BOS1: #825C02,
+
+    // New Jersey
+    ABE8: #387C03,
+    ACY5: #387C03,
+    EWR4: #387C03,
+    EWR5: #387C03,
+    EWR6: #387C03,
+    EWR7: #387C03,
+    EWR9: #387C03,
+    LGA7: #387C03,
+    LGA8: #387C03,
+    EWR8: #387C03,
+    DEW2: #387C03,
+    DEW1: #387C03,
+    ACY1: #387C03,
+    TEB6: #387C03,
+    TEB3: #387C03,
+
+    // New York
+    BUF5: #018D18,
+
+    // North Carolina
+    CLT2: #016541,
+    CLT5: #016541,
+    RDU5: #016541,
+
+    // Ohio
+    CMH1: #04808B,
+    CMH2: #04808B,
+
+    // Oklahoma
+    OKC1: #28637C,
+
+    // Oregon
+    PDX5: #043E8C,
+    PDX9: #043E8C,
+
+    // Pennsylvania
+    ABE2: #0C46F5,
+    ABE3: #0C46F5,
+    ABE4: #0C46F5,
+    ABE5: #0C46F5,
+    AVP1: #0C46F5,
+    AVP2: #0C46F5,
+    AVP3: #0C46F5,
+    MDT1: #0C46F5,
+    PHL4: #0C46F5,
+    PHL6: #0C46F5,
+    PHL9: #0C46F5,
+    XUSC: #0C46F5,
+    PHL5: #0C46F5,
+    PIT1: #0C46F5,
+
+    // South Carolina
+    CAE1: #392D7E,
+    CAE3: #392D7E,
+    GSP1: #392D7E,
+
+    // Tennessee
+    CHA1: #A14C07,
+    CHA2: #A14C07,
+    BNA1: #A14C07,
+    BNA2: #A14C07,
+    BNA3: #A14C07,
+    BNA5: #A14C07,
+
+    // Texas
+    DFW6: #842F14,
+    FTW2: #842F14,
+    DFW7: #842F14,
+    HOU1: #842F14,
+    SAT1: #842F14,
+    SAT2: #842F14,
+
+    // Utah
+    SLC1: #FA2B2B,
+
+    // Virginia
+    RIC1: #13533D,
+    RIC2: #13533D,
+    RIC3: #13533D,
+
+    // Washington
+    BFI1: #41582C,
+    BFI7: #41582C,
+    BFI3: #41582C,
+    BFI4: #41582C,
+    BFI5: #41582C,
+    BFI6: #41582C,
+    SEA8: #41582C,
+
+    // Wisconsin
+    MKE1: #4D96B6,
+    MKE5: #4D96B6,
+
+    // --- Canada --- //
+    // Alberta
+    YYC1: #773891,
+
+    // British Columbia
+    YVR2: #871055,
+    YVR3: #871055,
+
+    // Ontario
+    YYZ3: #5E8C9F,
+    YYZ4: #5E8C9F,
+    YYZ1: #5E8C9F,
+    YYZ2: #5E8C9F,
+    YOW1: #5E8C9F,
+
+    // --- Mexico --- //    
+    MEX1: #806986,
+
+    // --- United Kingdom --- //    
+    // England
+    BHX1: #EE6D6D,
+    BHX2: #EE6D6D,
+    BHX3: #EE6D6D,
+    BHX4: #EE6D6D,
+    LBA1: #EE6D6D,
+    LBA2: #EE6D6D,
+    LTN4: #EE6D6D,
+    LTN2: #EE6D6D,
+    MAN1: #EE6D6D,
+    LTN1: #EE6D6D,
+    DPE1: #EE6D6D,
+    EUK5: #EE6D6D,
+    LCY2: #EE6D6D,
+    MAN2: #EE6D6D,
+    MAN3: #EE6D6D
+);

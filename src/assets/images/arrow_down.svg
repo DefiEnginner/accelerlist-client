@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="84px" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="30" cy="30" r="30"></circle>
+        <filter x="-31.7%" y="-28.3%" width="163.3%" height="163.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.905882353   0 0 0 0 0.898039216   0 0 0 0 0.898039216  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Acceler-List-Green--TRUE-Copy" transform="translate(-918.000000, -1004.000000)">
+            <g id="Group-3" transform="translate(930.000000, 1014.000000)">
+                <g id="Group-2">
+                    <g id="Oval-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M39.7072568,31.1125846 C40.0975811,30.7212471 40.0975811,30.0877006 39.7072568,29.697364 C39.3169326,29.3060264 38.6850266,29.3060264 38.2957006,29.697364 L31.8578462,36.1429233 C31.5433906,36.4581952 30.9983342,36.2350027 30.9983342,35.7896185 L30.9983342,20.9838486 C30.9983342,20.4313721 30.5590946,20 30.0080486,20 L30.0040555,20 C29.4530095,20 29.0017907,20.4313721 29.0017907,20.9838486 L29.0017907,35.7896185 C29.0017907,36.2350027 28.4717084,36.4581952 28.1572528,36.1429233 L21.7004312,29.6663372 C21.3111053,29.2749997 20.6811958,29.2749997 20.2908715,29.6663372 L20.2918698,29.6663372 C19.9025438,30.0566739 19.9025438,30.6902203 20.2928681,31.0815578 L28.6034803,39.4137444 L28.6034803,39.4137444 C29.3831305,40.1954185 30.6479408,40.1954185 31.427591,39.4137444 C31.6072799,39.2325881 39.887944,30.9314284 39.7072568,31.1125846" id="arrow_down-[#360]" fill="#64CB31"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

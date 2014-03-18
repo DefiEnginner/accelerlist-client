@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="10px" viewBox="0 0 23 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Flickr Copy-color</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Acceler-List-Green--BLOG" transform="translate(-970.000000, -722.000000)">
+            <g id="infp" transform="translate(546.000000, 705.000000)">
+                <g id="Group-7" transform="translate(219.000000, 0.000000)">
+                    <g id="Group-5" transform="translate(18.000000, 12.000000)">
+                        <g id="Flickr-Copy" transform="translate(187.000000, 5.000000)">
+                            <path d="M22.9164504,4.84265847 C22.9164504,7.51736759 20.6594354,9.68660969 17.8701691,9.68660969 C15.0782078,9.68660969 12.8198453,7.51736759 12.8198453,4.84265847 C12.8198453,2.1692421 15.0782078,0 17.8701691,0 C20.6594354,0 22.9164504,2.1692421 22.9164504,4.84265847" id="Flickr" fill="#FF007F"></path>
+                            <path d="M10.0952576,4.84265847 C10.0952576,7.51736759 7.83689515,9.68660969 5.04493388,9.68660969 C2.25701502,9.68660969 0,7.51736759 0,4.84265847 C0,2.1692421 2.25701502,0 5.04493388,0 C7.83689515,0 10.0952576,2.1692421 10.0952576,4.84265847" id="Flickr" fill="#0960D5"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

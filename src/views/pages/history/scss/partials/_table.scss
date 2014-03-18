@@ -1,0 +1,136 @@
+.acc-table {
+    background: #FFFFFF;
+    border: 1px solid #D9E0D5;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.09);
+    position: relative;
+
+    > thead {
+        background-color: #EBEFE9;
+
+        > tr > th {
+            font-size: 13px;
+            font-weight: 600;
+            border-bottom: 1px solid darken(#EBEFE9, 8%);
+            text-align: center;
+
+            &.title {
+                width: 30%;
+            }
+
+            a {
+                color: inherit;
+            }
+        }
+    }
+
+    tr.child {
+        td.child {
+            background-color: #F4F7F2;
+            text-align: left;
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+            .row {
+                margin: 0 15px;
+            }
+
+            p:last-of-type {
+                margin-bottom: 0;
+            }
+
+            .toggle-more {
+                display: inline-block;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            a {
+                margin: 0;
+                color: lighten(#212121, 20%);
+
+                &:hover,
+                &:focus {
+                    color: #212121;
+                }
+            }
+        }
+    }
+
+    td {
+        vertical-align: middle;
+        text-align: center;
+        padding: 15px 10px;
+
+        a {
+            color: #2962ff;
+        }
+
+        .warehouse-group {
+            position: relative;
+            width: 370%;
+            margin-top: 1em;
+            margin-left: 1.5em;
+            text-align: left;
+        }
+
+        .toggle-detail {
+            margin: 0 10px 0 0;
+            line-height: 1;
+        }
+
+        .media img {
+            width: 50px;
+            margin-right: 15px;
+        }
+
+        .book-title {
+            margin: 0;
+            font-size: 14px;
+            font-weight: normal;
+            line-height: 1.3;
+            text-align: left;
+        }
+
+        .badge:first-of-type {
+            margin-left: 0;
+        }
+
+        .action-controls {
+            a {
+                margin: 0 5px;
+            }
+        }
+    }
+
+    .check {
+        margin: 0;
+    }
+
+    &.acc-table-left {
+        > thead > tr > th,
+        > tbody > tr > td {
+            text-align: left;
+        }
+    }
+}
+
+.card {
+    .acc-table {
+        border: 0;
+        box-shadow: none;
+    }
+}
+
+.batch-table {
+    td {
+        vertical-align: baseline;
+    }
+}
+
+.table-top-controls {
+    margin-bottom: 15px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #FAFBF9;
+}

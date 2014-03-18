@@ -1,0 +1,289 @@
+.metric-cta {
+  margin-top: 30px;
+  text-align: center;
+
+  .title {
+    display: block;
+    margin-bottom: 30px;
+    font-size: 68px;
+    font-weight: 700;
+  }
+
+  .subtitle {
+    display: block;
+    font-size: 28px;
+    font-weight: normal;
+  }
+}
+
+.key-feature {
+  display: flex;
+  justify-content: space-around;
+
+  > .text {
+    padding-right: 30px;
+  }
+
+  .media {
+    img {
+      width: 600px;
+    }
+  }
+
+  .feature-title {
+    margin-bottom: 20px;
+    font-size: 38px;
+    line-height: 1.3;
+  }
+
+  .feature-description {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .feature-detail-list {
+    list-style-type: none;
+    margin: 30px 0 0 0;
+    padding: 0;
+
+    > li {
+      margin-bottom: 15px;
+      padding-left: 40px;
+      font-size: 18px;
+      background-image: url('data:image/svg+xml;charset=utf-8, <svg width="24px" height="24px" viewBox="0 2 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M24,14 C24,20.6274355 18.6274355,26 12,26 C5.37256452,26 0,20.6274355 0,14 C0,7.37256452 5.37256452,2 12,2 C18.6274355,2 24,7.37256452 24,14 Z M10.6119677,20.3539032 L19.5151935,11.4506774 C19.8175161,11.1483548 19.8175161,10.6581452 19.5151935,10.3558226 L18.4203387,9.26096774 C18.1180161,8.95859677 17.6278065,8.95859677 17.3254355,9.26096774 L10.0645161,16.5218387 L6.67456452,13.1318871 C6.37224194,12.8295645 5.88203226,12.8295645 5.57966129,13.1318871 L4.48480645,14.2267419 C4.18248387,14.5290645 4.18248387,15.0192742 4.48480645,15.3215968 L9.51706452,20.3538548 C9.81943548,20.6562258 10.3095968,20.6562258 10.6119677,20.3539032 L10.6119677,20.3539032 Z" id="check-circle" stroke="none" fill="#1C384A" fill-rule="evenodd"></path></svg>');
+      background-repeat: no-repeat;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .btn-cta {
+    margin-top: 30px;
+  }
+
+  &.left-media {
+    .media {
+      order: 0;
+      padding-right: 30px;
+    }
+
+    .text {
+      order: 1;
+      padding-right: 0;
+      padding-left: 30px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+
+    &.left-media .media,
+    &.left-media .text {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .media {
+      order: 0;
+      margin-bottom: 15px;
+      text-align: center;
+
+      img {
+        max-width: 100%;
+      }
+    }
+
+    .text {
+      order: 1;
+    }
+
+    .feature-title {
+      font-size: 25px;
+    }
+  }
+}
+
+.flags {
+  display: flex;
+  justify-content: center;
+
+  img {
+    margin: 0 10px;
+  }
+
+  @media screen and (max-width: 768px) {
+    img {
+      width: auto;
+      height: 100px;
+      margin: 0;
+    }
+  }
+}
+
+.pricing-table {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+  @media screen and (max-width: 576px) {
+      display: block;
+  }
+}
+
+
+.pricing-box {
+  width: 450px;
+  padding: 30px 20px;
+  margin: 0 30px;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #1C384A;
+  background-color: #55A72F;
+  box-shadow: 4px 3px 7px rgba(56, 68, 50, .25);
+  border-radius: 8px;
+
+  .pricing-title {
+      margin: 0;
+      font-size: 28px;
+  }
+
+  .banner {
+      padding: 30px;
+      margin: 30px -20px;
+      background-color: #1C384A;
+      color: #fff;
+      font-size: 20px;
+      font-weight: 500;
+  }
+
+  .subtitle {
+      font-size: 18px;
+      font-weight: 700;
+  }
+
+  .feature-list {
+      list-style-type: none;
+      padding: 0;
+      text-align: left;
+
+      > li {
+          margin-bottom: 20px;
+          padding-left: 40px;
+          font-size: 16px;
+          font-weight: 500;
+          background-image: url('data:image/svg+xml;charset=utf-8, <svg width="24px" height="24px" viewBox="0 2 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M24,14 C24,20.6274355 18.6274355,26 12,26 C5.37256452,26 0,20.6274355 0,14 C0,7.37256452 5.37256452,2 12,2 C18.6274355,2 24,7.37256452 24,14 Z M10.6119677,20.3539032 L19.5151935,11.4506774 C19.8175161,11.1483548 19.8175161,10.6581452 19.5151935,10.3558226 L18.4203387,9.26096774 C18.1180161,8.95859677 17.6278065,8.95859677 17.3254355,9.26096774 L10.0645161,16.5218387 L6.67456452,13.1318871 C6.37224194,12.8295645 5.88203226,12.8295645 5.57966129,13.1318871 L4.48480645,14.2267419 C4.18248387,14.5290645 4.18248387,15.0192742 4.48480645,15.3215968 L9.51706452,20.3538548 C9.81943548,20.6562258 10.3095968,20.6562258 10.6119677,20.3539032 L10.6119677,20.3539032 Z" id="check-circle" stroke="none" fill="#468D25" fill-rule="evenodd"></path></svg>');
+          background-repeat: no-repeat;
+
+          &:last-child {
+              margin-bottom: 0;
+          }
+      }
+  }
+
+  .btn-cta {
+      display: block;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      font-size: 32px;
+      font-weight: 700;
+      border-radius: 50px;
+
+      .currency {
+          margin-right: 5px;
+          font-size: 18px;
+          font-weight: normal;
+      }
+
+      .period {
+          font-size: 20px;
+          font-weight: normal;
+      }
+  }
+
+  &.recommended {
+      position: relative;
+      background-color: #fff;
+      color: #1C384A;
+
+      .feature-list {
+          > li {
+              font-weight: 600;
+          }
+      }
+
+      .pricing-footer {
+          display: flex;
+          flex-grow: 1;
+      }
+
+      .btn-cta {
+          width: 100%;
+          align-self: flex-end;
+      }
+
+      .advantage {
+          position: absolute;
+          top: -5em;
+          right: -10em;
+          max-width: 160px;
+          margin: 0;
+
+          span {
+              display: block;
+              font-family: 'Gochi Hand', cursive;
+              font-size: 18px;
+              font-weight: normal;
+              color: #fff;
+          }
+      }
+  }
+
+  @media screen and (max-width: 768px) {
+      width: 50%;
+      margin: 0 15px;
+
+      .banner {
+          font-size: 14px;
+          padding: 20px 10px;
+      }
+
+      &.recommended {
+          .advantage {
+              top: -6em;
+              right: -7em;
+              transform: rotate(-30deg);
+          }
+      }
+  }
+
+  @media screen and (max-width: 576px) {
+      margin: 0 0 30px 0;
+      width: 100%;
+
+      &.recommended {
+          margin-top: 60px;
+
+          .advantage {
+              max-width: 100%;
+              top: -32px;
+              left: 9px;
+              right: auto;
+              width: auto;
+              margin: 0 auto 50px auto;
+              padding: 5px 10px;
+              background: #1c384a;
+              border-radius: 3px;
+              
+              span {
+                  font-size: 15px;
+              }
+
+              svg {
+                  display: none;
+              }
+          }
+      }
+  }
+}

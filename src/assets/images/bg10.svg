@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="394px" viewBox="0 0 1920 394" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 18</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="-2.64303459e-14" width="166" height="58" rx="29"></rect>
+        <filter x="-13.6%" y="-38.8%" width="127.1%" height="177.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.109803922   0 0 0 0 0.219607843   0 0 0 0 0.290196078  0 0 0 0.197775136 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#90E100" offset="0%"></stop>
+            <stop stop-color="#429321" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Acceler-List-Green--TRUE-Copy" transform="translate(0.000000, -6449.000000)">
+            <g id="Group-18" transform="translate(0.000000, 6449.000000)">
+                <g id="Subscribe">
+                    <rect id="Rectangle-4-Copy-3" fill="#FFFFFF" x="945" y="135" width="30" height="4" rx="1"></rect>
+                    <g transform="translate(658.000000, 246.000000)">
+                        <rect id="Rectangle-8" fill="#FFFFFF" x="0" y="0" width="606" height="58" rx="29"></rect>
+                        <text id="Email-Address" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" line-spacing="18" letter-spacing="0.538461566" fill="#000000">
+                            <tspan x="35" y="34">Email Address</tspan>
+                        </text>
+                        <g id="Group-3" transform="translate(440.000000, 0.000000)">
+                            <g id="Rectangle-8-Copy">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#1C384A" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            </g>
+                            <text id="Start-Now!" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" line-spacing="18" letter-spacing="0.538461566" fill="#000000">
+                                <tspan x="35" y="35">Start Now!</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <text id="Get-Exclusive-Conten" font-family=".SFNSDisplay, .SF NS Display" font-size="50" font-weight="normal" line-spacing="49" fill="#000000">
+                        <tspan x="690" y="112">Get Exclusive Content</tspan>
+                    </text>
+                    <text id="So-strongly-and-meta" font-family=".SFNSDisplay, .SF NS Display" font-size="25" font-weight="normal" line-spacing="49" letter-spacing="0.438596487" fill="#000000">
+                        <tspan x="779" y="171">So strongly and metaphys.</tspan>
+                    </text>
+                </g>
+                <rect id="Background" fill="url(#linearGradient-3)" x="0" y="0" width="1920" height="394"></rect>
+                <g id="Pattern" transform="translate(325.000000, 37.000000)" fill="#FFFFFF">
+                    <g id="Group-4">
+                        <g id="Group" transform="translate(172.000000, 14.040954)">
+                            <rect id="Rectangle-path" x="0" y="0.9" width="2" height="4"></rect>
+                            <rect id="Rectangle-path" x="0" y="10.9" width="2" height="4"></rect>
+                        </g>
+                        <g id="Group" transform="translate(166.000000, 20.040954)">
+                            <rect id="Rectangle-path" x="10" y="0.9" width="4" height="2"></rect>
+                            <rect id="Rectangle-path" x="0" y="0.9" width="4" height="2"></rect>
+                        </g>
+                        <g id="Group" transform="translate(17.000000, 122.040954)">
+                            <rect id="Rectangle-path" x="0.9" y="0.9" width="2" height="4"></rect>
+                            <rect id="Rectangle-path" x="0.9" y="10.9" width="2" height="4"></rect>
+                        </g>
+                        <g id="Group" transform="translate(11.000000, 128.040954)">
+                            <rect id="Rectangle-path" x="10.9" y="0.9" width="4" height="2"></rect>
+                            <rect id="Rectangle-path" x="0.9" y="0.9" width="4" height="2"></rect>
+                        </g>
+                        <path d="M104.9,54.940954 L102.9,54.940954 L102.9,52.940954 L104.9,52.940954 L104.9,54.940954 Z M100.9,54.940954 L98.9,54.940954 L98.9,52.940954 L100.9,52.940954 L100.9,54.940954 Z M96.9,54.940954 L94.9,54.940954 L94.9,52.940954 L96.9,52.940954 L96.9,54.940954 Z M92.9,54.940954 L90.9,54.940954 L90.9,52.940954 L92.9,52.940954 L92.9,54.940954 Z" id="Shape"></path>
+                        <circle id="Oval" cx="146" cy="2.040954" r="2"></circle>
+                        <circle id="Oval" cx="2" cy="10.040954" r="2"></circle>
+                        <circle id="Oval" cx="137" cy="131.040954" r="1"></circle>
+                    </g>
+                    <g id="Group-4-Copy" transform="translate(355.500000, 201.000000) scale(-1, 1) translate(-355.500000, -201.000000) translate(89.000000, 109.000000)">
+                        <g id="Group" transform="translate(442.000000, 60.040954)">
+                            <rect id="Rectangle-path" x="0" y="0.9" width="2" height="4"></rect>
+                            <rect id="Rectangle-path" x="0" y="10.9" width="2" height="4"></rect>
+                        </g>
+                        <g id="Group" transform="translate(436.000000, 66.040954)">
+                            <rect id="Rectangle-path" x="10" y="0.9" width="4" height="2"></rect>
+                            <rect id="Rectangle-path" x="0" y="0.9" width="4" height="2"></rect>
+                        </g>
+                        <g id="Group" transform="translate(287.000000, 168.040954)">
+                            <rect id="Rectangle-path" x="0.9" y="0.9" width="2" height="4"></rect>
+                            <rect id="Rectangle-path" x="0.9" y="10.9" width="2" height="4"></rect>
+                        </g>
+                        <g id="Group" transform="translate(281.000000, 174.040954)">
+                            <rect id="Rectangle-path" x="10.9" y="0.9" width="4" height="2"></rect>
+                            <rect id="Rectangle-path" x="0.9" y="0.9" width="4" height="2"></rect>
+                        </g>
+                        <path d="M214.9,2.940954 L212.9,2.940954 L212.9,0.940953996 L214.9,0.940953996 L214.9,2.940954 Z M210.9,2.940954 L208.9,2.940954 L208.9,0.940953996 L210.9,0.940953996 L210.9,2.940954 Z M206.9,2.940954 L204.9,2.940954 L204.9,0.940953996 L206.9,0.940953996 L206.9,2.940954 Z M202.9,2.940954 L200.9,2.940954 L200.9,0.940953996 L202.9,0.940953996 L202.9,2.940954 Z" id="Shape"></path>
+                        <circle id="Oval" cx="531" cy="144" r="2"></circle>
+                        <circle id="Oval" cx="2" cy="66.040954" r="2"></circle>
+                        <circle id="Oval" cx="407" cy="177.040954" r="1"></circle>
+                    </g>
+                    <g id="Group-4-Copy-3" transform="translate(1074.000000, 90.500000) scale(-1, 1) translate(-1074.000000, -90.500000) translate(923.000000, 5.000000)">
+                        <g id="Group" transform="translate(294.000000, 2.040954)">
+                            <rect id="Rectangle-path" x="0" y="0.9" width="2" height="4"></rect>
+                            <rect id="Rectangle-path" x="0" y="10.9" width="2" height="4"></rect>
+                        </g>
+                        <g id="Group" transform="translate(288.000000, 8.040954)">
+                            <rect id="Rectangle-path" x="10" y="0.9" width="4" height="2"></rect>
+                            <rect id="Rectangle-path" x="0" y="0.9" width="4" height="2"></rect>
+                        </g>
+                        <g id="Group" transform="translate(139.000000, 110.040954)">
+                            <rect id="Rectangle-path" x="0.9" y="0.9" width="2" height="4"></rect>
+                            <rect id="Rectangle-path" x="0.9" y="10.9" width="2" height="4"></rect>
+                        </g>
+                        <g id="Group" transform="translate(133.000000, 116.040954)">
+                            <rect id="Rectangle-path" x="10.9" y="0.9" width="4" height="2"></rect>
+                            <rect id="Rectangle-path" x="0.9" y="0.9" width="4" height="2"></rect>
+                        </g>
+                        <path d="M166.9,78.940954 L164.9,78.940954 L164.9,76.940954 L166.9,76.940954 L166.9,78.940954 Z M162.9,78.940954 L160.9,78.940954 L160.9,76.940954 L162.9,76.940954 L162.9,78.940954 Z M158.9,78.940954 L156.9,78.940954 L156.9,76.940954 L158.9,76.940954 L158.9,78.940954 Z M154.9,78.940954 L152.9,78.940954 L152.9,76.940954 L154.9,76.940954 L154.9,78.940954 Z" id="Shape"></path>
+                        <circle id="Oval" cx="232" cy="17" r="2"></circle>
+                        <circle id="Oval" cx="2" cy="2" r="2"></circle>
+                        <circle id="Oval" cx="209" cy="169.040954" r="1"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

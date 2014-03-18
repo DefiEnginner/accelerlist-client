@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>RSS-color</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Acceler-List-Green--BLOG" transform="translate(-1007.000000, -717.000000)" fill="#FF9A00">
+            <g id="infp" transform="translate(546.000000, 705.000000)">
+                <g id="Group-7" transform="translate(219.000000, 0.000000)">
+                    <g id="Group-5" transform="translate(18.000000, 12.000000)">
+                        <path d="M224.000214,17.1428571 C224.000214,15.565 225.279486,14.2857143 226.857327,14.2857143 C228.435167,14.2857143 229.714439,15.565 229.714439,17.1428571 C229.714439,18.7207143 228.435167,20 226.857327,20 C225.279486,20 224.000214,18.7207143 224.000214,17.1428571 Z M244,20 L240.190755,20 C240.190755,11.0721429 232.927976,3.80928571 224.000214,3.80928571 L224.000214,0 C235.027953,0 244,8.97214286 244,20 Z M237.333429,20 L233.524184,20 C233.524184,14.7485714 229.251372,10.4764286 224,10.4764286 L224,6.66642857 C231.352064,6.66642857 237.333429,12.6478571 237.333429,20 Z" id="RSS"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

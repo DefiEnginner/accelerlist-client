@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1383px" height="564px" viewBox="0 0 1383 564" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage-2.0" transform="translate(-34.000000, -235.000000)">
+            <g id="hero-unit">
+                <g id="hero-unit-bg">
+                    <g id="line-chart" transform="translate(36.000000, 241.000000)">
+                        <polygon id="Line-Area" fill="url(#linearGradient-1)" points="0.574074074 557.37218 113.981481 504.590226 197.074074 429.894737 304.259259 397.278195 425 381 519 319 634 299 722 235 848 263 942 153 1063 172 1157 108 1273 87 1371 6 1371 556"></polygon>
+                        <polyline id="Line" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square" opacity="0.25" points="0.574074074 555.37218 113.981481 502.590226 197.074074 427.894737 304.259259 395.278195 425 379 519 317 634 297 722 233 848 261 942 151 1063 170 1157 106 1273 85 1371 4"></polyline>
+                        <g id="chart-point" transform="translate(108.814815, 495.684211)" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="12" fill="#1C384A" fill-opacity="0.8">
+                            <ellipse id="Oval-Copy-5" cx="6.25925926" cy="6.27819549" rx="5.74074074" ry="6.27819549"></ellipse>
+                        </g>
+                        <g id="chart-point" transform="translate(194.185185, 420.360902)" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="12" fill="#1C384A" fill-opacity="0.8">
+                            <ellipse id="Oval-Copy-5" cx="6.25925926" cy="6.27819549" rx="5.74074074" ry="6.27819549"></ellipse>
+                        </g>
+                        <g id="chart-point" transform="translate(299.518519, 389.000000)" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="12" fill="#1C384A" fill-opacity="0.8">
+                            <ellipse id="Oval-Copy-5" cx="6.25925926" cy="6.27819549" rx="5.74074074" ry="6.27819549"></ellipse>
+                        </g>
+                        <g id="chart-point" transform="translate(418.518519, 373.000000)" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="12" fill="#1C384A" fill-opacity="0.8">
+                            <ellipse id="Oval-Copy-5" cx="6.25925926" cy="6.27819549" rx="5.74074074" ry="6.27819549"></ellipse>
+                        </g>
+                        <g id="chart-point" transform="translate(512.518519, 310.000000)" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="12" fill="#1C384A" fill-opacity="0.8">
+                            <ellipse id="Oval-Copy-5" cx="6.25925926" cy="6.27819549" rx="5.74074074" ry="6.27819549"></ellipse>
+                        </g>
+                        <g id="chart-point" transform="translate(629.000000, 290.000000)" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="12" fill="#1C384A" fill-opacity="0.8">
+                            <ellipse id="Oval-Copy-5" cx="6.25925926" cy="6.27819549" rx="5.74074074" ry="6.27819549"></ellipse>
+                        </g>
+                        <g id="chart-point" transform="translate(716.000000, 227.000000)" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="12" fill="#1C384A" fill-opacity="0.8">
+                            <ellipse id="Oval-Copy-5" cx="6.25925926" cy="6.27819549" rx="5.74074074" ry="6.27819549"></ellipse>
+                        </g>
+                        <g id="chart-point" transform="translate(841.000000, 254.000000)" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="12" fill="#1C384A" fill-opacity="0.8">
+                            <ellipse id="Oval-Copy-5" cx="6.25925926" cy="6.27819549" rx="5.74074074" ry="6.27819549"></ellipse>
+                        </g>
+                        <g id="chart-point" transform="translate(936.000000, 145.000000)" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="12" fill="#1C384A" fill-opacity="0.8">
+                            <ellipse id="Oval-Copy-5" cx="6.25925926" cy="6.27819549" rx="5.74074074" ry="6.27819549"></ellipse>
+                        </g>
+                        <g id="chart-point" transform="translate(1056.000000, 163.000000)" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="12" fill="#1C384A" fill-opacity="0.8">
+                            <ellipse id="Oval-Copy-5" cx="6.25925926" cy="6.27819549" rx="5.74074074" ry="6.27819549"></ellipse>
+                        </g>
+                        <g id="chart-point" transform="translate(1151.000000, 101.000000)" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="12" fill="#1C384A" fill-opacity="0.8">
+                            <ellipse id="Oval-Copy-5" cx="6.25925926" cy="6.27819549" rx="5.74074074" ry="6.27819549"></ellipse>
+                        </g>
+                        <g id="chart-point" transform="translate(1266.000000, 78.000000)" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="12" fill="#1C384A" fill-opacity="0.8">
+                            <ellipse id="Oval-Copy-5" cx="6.25925926" cy="6.27819549" rx="5.74074074" ry="6.27819549"></ellipse>
+                        </g>
+                        <g id="chart-point" transform="translate(1363.000000, 0.000000)" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="12" fill="#1C384A" fill-opacity="0.8">
+                            <ellipse id="Oval-Copy-5" cx="6.25925926" cy="6.27819549" rx="5.74074074" ry="6.27819549"></ellipse>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,74 @@
+@import "../../../../../shared/partials/general";
+@import "../../../../../shared/partials/input";
+
+.app-sidebar {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.09);
+
+    .nav-tabs .nav-link {
+        background-color: #E4EAE2;
+        border-color: #BDCDB6;
+        color: #363935;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+
+        &.active {
+            background-color: #fff;
+            border-bottom-color: transparent;
+        }
+    }
+
+    .nav-tabs .nav-item {
+        margin-left: 5px;
+
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+
+    .tab-content {
+        height: 75vh;
+        overflow: auto;
+        background-color: #fff;
+    }
+
+    .content-section {
+        margin-bottom: 40px;
+    }
+
+    .child-controls {
+        margin-top: 15px;
+
+        input {
+            font-size: 12px;
+        }
+        
+    }
+}
+
+.batch-sidebar {
+    .separator-heading {
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 15px;
+        font-weight: 600;
+        color: #00C853;
+
+        span {
+            display: block;
+            padding-right: 10px;
+            text-align: left;
+            width: unset;
+        }
+
+        hr {
+            margin: 0;
+            flex: 1;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .loader {
+    border: 7px solid white;
+    border-top: 7px solid #00c853;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    animation: spin 2s linear infinite;
+  }
+}
+
+.StripeElement {
+  box-shadow: none;
+  margin: 0px;
+  border: 1px solid #adacac;
+  border-radius: 4px;
+  width: 100%;
+  height: 58px;
+  font-size: 18px !important;
+  padding: 1em;
+}
+
+.StripeElement--focus {
+  border: 1px solid #00c853;
+}

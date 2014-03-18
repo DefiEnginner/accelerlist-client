@@ -1,0 +1,68 @@
+.nav-pills-step {
+  .step,
+  .title {
+    display: block;
+    font-weight: 600;
+  }
+
+  .title {
+    font-size: 1.1rem;
+  }
+
+  .nav-link {
+    display: flex;
+    align-items: center;
+    margin-right: .8rem;
+    cursor: pointer;
+    background-color: #E2E5E0;
+    color: #777876;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+
+    .icon-arrow {
+      margin-left: 1rem;
+      fill: #C6CAC3;
+      transition: all .3s ease-in-out;
+    }
+
+    &:hover {
+      .icon-arrow {
+        transform: translateX(.8rem);
+      }
+    }
+
+    &.active {
+      cursor: pointer;
+
+      .icon-arrow {
+        fill: #1842B6;
+      }
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.tab-content-step {
+  padding: 2rem;
+  border-top: 3px solid #2962FF;
+  background-color: #fff;
+}
+
+.onboarding {
+  label {
+    margin-bottom: 1rem !important;
+    font-size: 1.2rem !important;
+  }
+
+  .form-group {
+    margin-bottom: 3rem;
+  }
+
+  .Select-value-label img {
+    position: relative;
+    top: -.1rem;
+  }
+}

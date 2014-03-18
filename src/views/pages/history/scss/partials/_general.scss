@@ -1,0 +1,139 @@
+// for this ui prototype only
+// body {
+//     padding: 10em;
+//     background: #F3F7F1;
+// }
+
+// a {
+//     margin-left: 0!important;
+// }
+
+// below styles ideally placed on src/app.scss (at accelerlist app)
+.btn-link {
+    box-shadow: none;
+    padding: 0;
+    font-weight: 600;
+
+    .icon {
+        margin-right: 5px;
+        vertical-align: bottom;
+    }
+
+    &.btn-success {
+        color: #00C853;
+    }
+
+    &.btn-danger {
+        color: #F22F2F;   
+    }
+
+    &:hover span {
+        text-decoration: underline;
+    }
+}
+
+.btn-link-group {
+    button {
+        margin-right: 20px;
+        line-height: 1;
+    }
+}
+
+.animate-spin {
+    -webkit-animation: spin 2s infinite linear;
+    animation: spin 2s infinite linear;
+}
+
+.animate-reverse {
+    -webkit-animation-direction: reverse;
+    animation-direction: reverse;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+.badge {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.badge-deleted {
+    border: 1px solid #F22F2F;
+    color: #F22F2F;
+}
+
+.badge-completed {
+    border: 1px solid #00C853;
+    color: #00C853;
+}
+
+.badge-inprogress {
+    border: 1px solid #FF7729;
+    color: #FF7729;
+}
+
+.btn-secondary {
+    color: #858C82;
+    border-color: #CECECE;
+    background-color: #fff;
+    box-shadow: none;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: #fafafa;
+        color: #858C82;
+    }
+
+    &.active {
+        background-color: #2962FF;
+        border-color: #1F56ED;
+        color: #fff;
+    }
+}
+
+.btn-history-tab {
+  color: black;
+  border-color: #CECECE;
+  background-color: #fff;
+  box-shadow: none;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: #00C853;
+    color: #fff;
+  }
+  &.active-btn {
+      background-color:#00C853;
+      color: #fff;
+  }
+}
+
+.show > .btn-secondary.dropdown-toggle {
+    background-color: #fafafa;
+    color: #858C82;   
+}
+
+label {
+    font-size: 14px !important;
+    margin-bottom: 12px !important;
+}

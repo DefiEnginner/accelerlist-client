@@ -1,0 +1,53 @@
+
+.col-align-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.feed-items-window{
+  display: flex;
+  flex-direction: column;
+  max-height: 500px !important;
+  overflow-y: auto;
+}
+.replenish-modal {
+  &.modal-dialog {
+    max-width: 80vw;
+  }
+  .modal-title {
+    font-size: 20px;
+    color: grey;
+    font-weight: 600;
+  }
+  .badge {
+    font-size: 14px;
+    padding: 8px;
+    &:not(:first-child) {
+      margin-left: 10px;
+    }
+  }
+  .table {
+    margin-top: 15px;
+    thead th, tr td {
+      text-align: center;
+      vertical-align: middle;
+      padding: 0.3rem;
+      word-break: break-all;
+      &.small-column {
+        min-width: 50px;
+      }
+      &.input-cell {
+        min-width: 80px;
+        input {
+          min-width: 40px;
+          max-width: 60px;
+          text-align: center;
+          display: table-cell;
+        }
+      }
+    }
+    th {
+      font-size: 12px;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="11px" viewBox="0 0 26 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Acceler-List-Green--BLOG" transform="translate(-575.000000, -795.000000)" fill="#FFFFFF">
+            <g id="infp" transform="translate(546.000000, 705.000000)">
+                <g id="Group-3" transform="translate(29.000000, 84.000000)">
+                    <g id="arrow" transform="translate(0.000000, 6.000000)">
+                        <g>
+                            <path d="M-0.805281914,8.4212802 C-1.13175442,8.76509097 -1.66851657,8.77271746 -2.00417373,8.43831445 C-2.33983088,8.10391143 -2.34727651,7.55411053 -2.020804,7.21029976 L2.37720595,2.57872081 C2.70376488,2.23481902 3.24070151,2.22729301 3.57632525,2.56191328 L8.22179356,7.19349223 C8.55732847,7.52802393 8.56457315,8.07782765 8.237975,8.42151321 C7.91137686,8.76519877 7.37461196,8.77261943 7.03907705,8.43808773 L3.00137592,4.41245882 L-0.805281914,8.4212802 Z" id="Path-10" fill-rule="nonzero" transform="translate(3.108696, 5.500001) rotate(-90.000000) translate(-3.108696, -5.500001) "></path>
+                            <path d="M1.97624898,6.36842105 C1.5091187,6.36842105 1.13043478,5.9796157 1.13043478,5.5 C1.13043478,5.0203843 1.5091187,4.63157895 1.97624898,4.63157895 L25.1541858,4.63157895 C25.6213161,4.63157895 26,5.0203843 26,5.5 C26,5.9796157 25.6213161,6.36842105 25.1541858,6.36842105 L1.97624898,6.36842105 Z" id="Path-11" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

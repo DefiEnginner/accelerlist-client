@@ -1,0 +1,65 @@
+@import "../../../shared/partials/general";
+@import "../../../shared/partials/input";
+
+.app-sidebar {
+
+    .nav-tabs .nav-link {
+        background-color: #E4EAE2;
+        border-color: #BDCDB6;
+        color: #363935;
+        font-size: 14px;
+        font-weight: 600;
+
+        &.active {
+            background-color: #fff;
+            border-bottom-color: transparent;
+        }
+    }
+
+    .nav-tabs .nav-item {
+        margin-left: 5px;
+
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+
+    .tab-content {
+        padding: 15px;
+        background-color: #fff;
+        box-shadow: -3px 0 4px 0 rgba(0,0,0,0.02);
+    }
+
+    .content-section {
+        margin-bottom: 40px;
+    }
+
+    .child-controls {
+        margin-top: 15px;
+
+        input {
+            font-size: 12px;
+        }
+        
+    }
+}
+
+.separator-heading {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #00C853;
+
+    span {
+        display: block;
+        width: 80%;
+    }
+
+    hr {
+        margin: 0;
+        width: 25%;
+    }
+}

@@ -1,0 +1,67 @@
+@import '../../mixins';
+
+.modal-mwsAuthorize {
+	@include breakpoint(desktop) {
+		max-width: 50em !important;
+	}
+
+	.modal-content {
+		.modal-header {
+			@include defaultModalTitle();
+		}
+
+		.modal-body {
+			form {
+				.form-group {
+					a.anchor-amazon {
+						margin: 0;
+						text-decoration: underline;
+						cursor: pointer;
+
+						&:hover {
+							text-decoration: none;
+						}
+					}
+
+					&.step-field {
+						display: flex;
+						align-items: flex-start;
+						padding: 10px 0;
+						margin-bottom: 2em;
+
+						&:last-child {
+							border: none;
+						}
+					}
+					
+					&:last-child {
+						margin-bottom: 0;
+					}
+
+					.step-number {
+						display: block;
+						margin-right: 1em;
+						background: #00c853;
+						color: #fff;
+						font-size: 20px;
+						font-weight: 700;
+						border-radius: 50%;
+						width: 50px;
+						height: 50px;
+						text-align: center;
+						line-height: 50px;
+					}
+
+					.right {
+						flex: 1 1 auto;
+					}
+					
+					label {
+						display: block;
+						font-size: 18px !important;
+					}
+				}
+			}
+		}
+	}
+}

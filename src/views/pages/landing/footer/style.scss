@@ -1,0 +1,27 @@
+footer {
+    padding: 30px 0;
+
+    > .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    background-color: #4c9829;
+
+    @media screen and (max-width: 576px) {
+      text-align: center;
+
+      .container {
+        display: block;
+      }
+
+      .logo img {
+        width: 120px;
+      }
+
+      .copyright {
+        margin: 20px 0;
+      }
+    }
+  }

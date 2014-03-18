@@ -1,0 +1,34 @@
+@import './partials/metrics';
+
+.page-header {
+  display: flex;
+  margin-bottom: 30px;
+
+  .page-title {
+    margin-bottom: 0;
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .page-subtitle {
+    padding: 4px 0 4px 15px;
+    margin-left: 15px;
+    border-left: 1px solid #ccc;
+    line-height: 1;
+    font-size: 15px;
+    color: #858C82;
+  }
+}
+
+.page-info {
+    margin: 0;
+    color: #2962FF;
+    background-color: rgba(#2962FF, 0.06);
+    padding: 10px 15px;
+    border-radius: 5px;
+
+    .icon {
+        vertical-align: sub;
+        margin-right: 5px;
+    }
+}

@@ -1,0 +1,727 @@
+@import "shared/variables"; // modify bootstrap variables and put extra variables in this file
+@import "shared/acc-variables";
+@import "./node_modules/bootstrap/scss/bootstrap.scss"; // import full bootstrap here (as-is)
+@import "./node_modules/react-select/scss/default.scss";
+@import "shared/modules";
+@import "shared/buttons";
+@import "shared/owl";
+@import "shared/forms";
+@import "shared/acc-tables";
+@import "shared/acc-navbar";
+@import "shared/acc-popover";
+@import "shared/acc-vendors";
+
+// ---------- bootstrap override ------------
+// ------------------------------------------
+html {
+    font-size: $font-size-root;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: $font-family-poppins;
+  }
+  
+  body {
+    font-family: $font-family-poppins;
+  }
+  *:focus {
+    outline: none !important;
+  }
+  
+  hr {
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+  }
+  
+  code {
+    font-size: 80%;
+    background: $md-deep-orange-50;
+    color: $md-brown-800;
+  }
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: $font-family-poppins;
+  }
+  
+  /** Bug fix for pre **/
+  // @media (max-width: 575px) {
+  //     .container {
+  //         max-width: 100%;
+  //     }
+  // }
+  
+  // ------ buttons
+  .btn {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.09), 0 1px 2px rgba(0, 0, 0, 0.05);
+    &:focus {
+      box-shadow: none;
+    }
+  }
+  .btn-fab {
+    border-radius: 50%;
+    min-width: 44px;
+    min-height: 44px;
+    padding: 0;
+  }
+  .btn-fab.btn-sm {
+    min-width: 32px;
+    min-height: 32px;
+  }
+  .btn-fab.btn-lg {
+    min-width: 56px;
+    min-height: 56px;
+  }
+  
+  // ----- breadcrumb
+  .breadcrumb-item.active {
+    font-weight: 700;
+  }
+  
+  // ----- dropdowns
+  .dropdown > .dropdown-menu {
+    transition: 0.2s ease-in-out;
+    transform: scale(0.8);
+    transform-origin: 100% 0;
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .dropdown.show > .dropdown-menu {
+    transform: scale(1);
+    visibility: visible;
+    opacity: 1;
+  }
+  .dropdown-menu {
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.15);
+    z-index: 2000;
+  }
+  .dropdown-item {
+    padding: 7px $dropdown-item-padding-x;
+    a {
+      color: $body-color;
+    }
+  }
+  
+  // ----- cards
+  .card {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  }
+  .card-inverse {
+    color: rgba(255, 255, 255, 0.95);
+  }
+  
+  // ----- utilities
+  .font-weight-semi-bold {
+    font-weight: 600;
+  }
+  
+  // ---- reactable header
+  .reactable-header-sortable > span {
+    display: inline-block;
+    position: relative;
+    &::after,
+    &::before {
+      content: "";
+      position: absolute;
+      border: 4px solid transparent;
+      right: -1.2rem;
+    }
+    &::after {
+      border-color: $md-grey-500 transparent transparent transparent;
+      top: 11px;
+    }
+    &::before {
+      border-color: transparent transparent $md-grey-500 transparent;
+      top: 1px;
+    }
+  }
+  // hide one of the triangle on sort.
+  .reactable-header-sort-asc.reactable-header-sortable > span::before,
+  .reactable-header-sort-desc.reactable-header-sortable > span::after {
+    border-color: transparent;
+  }
+  
+  // ---- Reactable pagination
+  .reactable-pagination {
+    .reactable-page-button,
+    .reactable-next-page,
+    .reactable-previous-page {
+      display: inline-block;
+      cursor: pointer;
+      padding: 0.35rem 0.9rem;
+      font-size: 12px;
+      border: 1px solid $md-grey-200;
+      border-radius: 2px;
+      margin-right: 4px;
+    }
+    .reactable-current-page {
+      background: $md-blue-500;
+      color: #fff;
+    }
+    .reactable-next-page,
+    .reactable-previous-page {
+    }
+  }
+  
+  // Modals Transition
+  // -----------------
+  // Because we can't add extra class directly in `.modal` through reactstrap react lib.
+  // We attached it to `.modal-dialog` and controlled it via `.fade` and `.show` class of `.modal`
+  .modal {
+    .modal-header .modal-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+    &.fade {
+      perspective: 1300; // for 3d flip effect
+      .modalFadeInScale,
+      .modalSlideIn,
+      .modal3DFlipHorizontal,
+      .modal3DFlipVertical,
+      .modalFall,
+      .modalRapid {
+        &.modal-dialog {
+          transition: 0.3s;
+        }
+      }
+    }
+    &.show {
+      .modalFadeInScale,
+      .modalSlideIn,
+      .modal3DFlipHorizontal,
+      .modal3DFlipVertical,
+      .modalFall,
+      .modalRapid {
+        &.modal-dialog {
+          opacity: 1;
+        }
+      }
+    }
+  
+    // === fadeInScale
+    .modalFadeInScale.modal-dialog {
+      transform: scale(0.7);
+    }
+    &.show .modalFadeInScale.modal-dialog {
+      transform: scale(1);
+      -webkit-font-smoothing: subpixel-antialiased;
+    }
+  
+    // ==== slideIn
+    .modalSlideIn.modal-dialog {
+      transform: translate(20%, 0);
+    }
+    &.show .modalSlideIn.modal-dialog {
+      transform: translate(0, 0);
+    }
+  
+    // === 3D Flip (Horizontal)
+    .modal3DFlipHorizontal.modal-dialog {
+      transform: rotateY(-70deg);
+    }
+    &.show .modal3DFlipHorizontal.modal-dialog {
+      transform: rotateY(0);
+      transform-style: preserve-3d;
+      -webkit-font-smoothing: subpixel-antialiased;
+    }
+  
+    // === 3D Flip (Vertical)
+    .modal3DFlipVertical.modal-dialog {
+      transform: rotateX(-70deg);
+    }
+    &.show .modal3DFlipVertical.modal-dialog {
+      transform: rotateX(0);
+      transform-style: preserve-3d;
+      -webkit-font-smoothing: subpixel-antialiased;
+    }
+  
+    // === fall
+    .modalFall.modal-dialog {
+      transform-style: preserve-3d;
+      transform: translateZ(600px) rotateX(20deg);
+    }
+    &.show .modalFall.modal-dialog {
+      transform: translateZ(0px) rotateX(0deg);
+      -webkit-font-smoothing: subpixel-antialiased;
+    }
+  
+    // === Fast Train
+    &.show .modal-dialog.modalRapid {
+      animation: modalRapid 0.5s forwards ease-out;
+      -webkit-font-smoothing: subpixel-antialiased;
+    }
+  
+    @-webkit-keyframes modalRapid {
+      0% {
+        opacity: 0;
+        -webkit-transform: translate3d(calc(-100vw - 50%), 0, 0);
+      }
+      50% {
+        opacity: 1;
+        -webkit-transform: translate3d(100px, 0, 0);
+      }
+      100% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+      }
+    }
+  
+    @keyframes modalRapid {
+      0% {
+        opacity: 0;
+        -webkit-transform: translate3d(calc(-100vw - 50%), 0, 0);
+        transform: translate3d(calc(-100vw - 50%), 0, 0);
+      }
+      50% {
+        opacity: 1;
+        -webkit-transform: translate3d(100px, 0, 0);
+        transform: translate3d(100px, 0, 0);
+      }
+      100% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+      }
+    }
+  }
+  
+  // ---------- END ---------
+  
+  /* Custom AccelerList Styles */
+  .badge {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  .badge-status {
+    text-transform: uppercase;  
+  }
+  
+  .badge-deleted {
+    border: 1px solid #F22F2F;
+    color: #F22F2F;
+  }
+  
+  .badge-completed {
+    border: 1px solid #00C853;
+    color: #00C853;
+  }
+  
+  .badge-inprogress {
+    border: 1px solid #FF7729;
+    color: #FF7729;
+  }
+
+.app-wrapper {
+    display: block;
+    min-height: 100vh;
+}
+
+
+.content-container {
+    width: 100%;
+    transform: translate(0,0);
+    position: relative;
+    background-color: #f3f5f3;
+    @media(min-width: 992px) {
+        &.full {
+            width: calc(100% - .75em);
+            transform: translate(.75em, 0);
+        }
+        width: calc(100% - 15em);
+        transform: translate(15em, 0);
+        // always hide on desktop
+        .menu-dropshadow {display: none!important;}
+    }
+    // show on only menu show + mobile view (for hiding navigation)
+    .menu-dropshadow {
+        display: none;
+        position: absolute;
+        top: 0; bottom: 0; right: 0; left: 0;
+        background: rgba(0,0,0,.7);
+        z-index: $zindex-dropdown-backdrop;
+    }
+}
+
+.site-head {
+    height: 62px;
+    background: $view-header-bg;
+    padding: 1.2rem;
+}
+
+.view {
+    .view-header, .view-content { padding: 1em 1.2rem;}
+    .view-header {
+        background: $view-header-bg;
+        margin-top: -2px;
+        padding-bottom: 4.4rem;
+    }
+    .view-content {
+        margin-top: -4.2rem;
+    }
+    .view-header .breadcrumb-item + .breadcrumb-item::before {
+        color: #fff;
+    }
+    // for full pages like signin, 404 etc.
+    .view-content.view-pages {
+       padding: 4rem;
+       margin: 0;
+       min-height: 100vh;
+    }
+}
+@media (min-width: 768px) {
+    .site-head,
+    .view .view-header,
+    .view .view-content { padding: 1.1em 2rem;}
+    .view .view-header {padding-bottom: 4.4rem;}
+    .view-header header {
+        .title {font-size: 1.45rem;}
+        .subtitle {font-size: $font-size-root}
+    }
+}
+
+// Custom styles
+.view-dashboard-content {
+    > .row > .col:first-child {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .card {
+        margin-bottom: 30px;
+    }
+}
+
+.modal-backdrop.show {
+    opacity: .85 !important;
+}
+
+.modal .onboarding {
+    max-width: 90%;
+
+    &.modal-dialog {
+        margin-top: 2rem;
+    }
+
+    .modal-content {
+        height: 90vh;
+    }
+    
+    .modal-header {
+        border-bottom: 0;
+        padding-top: 20px;
+        padding-bottom: 0;
+        justify-content: center;
+    }
+
+    .modal-header .modal-title,
+    .modal-title {
+        font-size: 32px;
+        font-weight: 300;
+        color: $brand-primary;
+    }
+
+    .modal-body {
+        padding: 50px 30px;
+        color: #A39D8F;
+        font-size: 28px;
+
+        .inner-body {
+            width: 100%;
+        }
+    }
+
+    .modal-footer {
+        border-top: 0;
+        justify-content: center;
+        padding-bottom: 40px;
+
+        .btn {
+            padding: 0;
+            font-size: 18px;
+            font-weight: 500;
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            span {
+                display: inline-block;
+                padding: 8px 20px;
+                vertical-align: middle;
+            }
+
+            .addon {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        }
+
+        .btn-primary {
+            .addon {
+                border-left: 1px solid lighten($md-white, 8%);
+            }
+        }
+
+        .btn-outline-secondary {
+            .addon {
+                border-right: 1px solid #d8d8d8;
+            }
+
+            &:hover .addon {
+                border-color: #fff;
+
+                svg {
+                    color: #fff !important;
+                }
+            }
+        }
+    }
+
+    .description {
+        margin: 0 auto;
+        margin-bottom: 20px;
+        max-width: 800px;
+        text-align: center;
+        font-size: 22px;
+        font-weight: normal;
+        line-height: 1.4;
+    }
+
+    .form-control {
+        background-color: rgba(255, 187, 34, 0.1);
+        color: #6A4D0A;
+    }
+
+    .goals {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .goal-box {
+        padding: 30px;
+        text-align: center;
+        transition: all .3s ease-out;
+
+        &:hover {
+            background-color: rgba(255, 187, 34, 0.12);
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    }
+
+    .goal-title {
+        margin-top: 10px;
+        line-height: 1.6;
+        font-size: 18px;
+        color: #6A4D0A;
+    }
+
+    .audiences {
+        display: flex;
+        justify-content: center;
+    }
+
+    .audience-box {
+        display: flex;
+        align-items: center;
+        width: 150px;
+        height: auto;
+        padding: 30px;
+        margin: 0 10px;
+        border-radius: 5px;
+        border: 5px solid #FFBB22;
+        background-color: #fff;
+
+        .audience-title {
+            font-size: 18px;
+            color: #6A4D0A;
+            text-align: center;
+            font-weight: 600;
+            line-height: 1.3;
+        }
+
+        &.selected {
+
+            &,
+            &:hover {
+                background-color: #FFBB22;
+
+                .audience-title {
+                    color: #fff;
+                }
+            }
+        }
+
+        &:hover {
+            background-color: rgba(255, 187, 34, .12);
+            cursor: pointer;
+        }
+    }
+
+    .form-control,
+    .input-group-addon {
+        padding: 0.75rem 1.5rem;
+        border: 2px solid $jackal-orange;
+        font-size: 2rem;
+    }
+
+    .input-group-addon {
+        background-color: $jackal-orange;
+        color: #fff;
+    }
+
+    input[type=number]::-webkit-inner-spin-button, 
+    input[type=number]::-webkit-outer-spin-button { 
+        -webkit-appearance: none; 
+        margin: 0; 
+    }
+
+    .price-threshold {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .input-group {
+            width: 200px;
+            margin: 0 30px;
+        }
+
+        .divider {
+            display: block;
+            width: 125px;
+            margin: 0;
+            border: 1px solid rgba(147, 137, 113, .3);
+        }
+    }
+
+    .form-group {
+        margin-bottom: 50px;
+
+        input {
+            margin: 0 auto;
+        }
+    }
+
+    #template-input {
+        max-width: 550px;
+    }
+
+    .rc-time-picker {
+        display: block;
+        max-width: 200px;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    #time-input {
+        @extend .form-control;
+
+        margin: 0 auto;
+        height: auto;
+    }
+}
+
+.custom-timepicker-popup {
+    color: #6A4D0A;
+
+    .rc-time-picker-panel-inner {
+        border-color: $jackal-orange;
+        box-shadow: 0 1px 5px #ff9800;
+    }
+
+    .rc-time-picker-panel-input-wrap {
+        border-bottom: 1px solid #efe6d3;
+    }
+    
+    .rc-time-picker-panel-input {
+        padding: 0 5px;
+        font-size: 20px;
+        color: #6A4D0A;
+    }
+
+    .rc-time-picker-panel-clear-btn {
+        top: 12px;
+    }
+
+    .rc-time-picker-panel-clear-btn-icon:after {
+        font-size: 16px;
+    }
+
+    .rc-time-picker-panel-select {
+        height: 100vh;
+        border-color: #efe6d3;
+
+        li {
+            padding: 0;
+            text-align: center;
+            font-size: 15px;
+        }
+    }
+    
+}
+
+/* custom scrollbar styles */
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: none;
+	background-color: transparent;
+}
+
+::-webkit-scrollbar
+{
+	width: 0;
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: transparent;
+}
+
+a {
+    /* somewhere margin-left is 5px, bad practice */
+    /* will find it later */
+    margin-left: 0 !important;
+}
+
+.acc-table {
+    > tfoot > tr > td {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+.w-auto {
+    width: auto !important;
+}
+
+.pagination {
+    margin-bottom: 0;
+}
+@media print {
+    * {
+      visibility: hidden;
+    }
+    #printable {
+      visibility: visible !important;
+    }
+    .printable {
+      display: block;
+      visibility: visible !important;
+      page-break-after: always !important;
+      page-break-inside: avoid !important;
+    }
+    .printable-accounting * {
+      visibility: visible !important;
+    }
+    .printable * {
+      visibility: visible !important;
+      page-break-inside: avoid !important;
+    }
+  }
+@page  {
+    margin: 40px;
+}

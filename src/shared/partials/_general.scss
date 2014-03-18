@@ -1,0 +1,250 @@
+
+
+// below styles ideally placed on src/app.scss (at accelerlist app)
+.btn-link {
+    box-shadow: none;
+    padding: 0;
+    font-weight: normal;
+
+    .icon {
+        margin-right: 5px;
+        vertical-align: bottom;
+    }
+
+    &.btn-success {
+        color: #00C853;
+    }
+
+    &.btn-danger {
+        color: #F22F2F;   
+    }
+
+    &:hover span {
+        text-decoration: underline;
+    }
+}
+
+.btn-link-group {
+    button {
+        margin-right: 20px;
+        line-height: 1;
+    }
+}
+
+.animate-spin {
+    -webkit-animation: spin 2s infinite linear;
+    animation: spin 2s infinite linear;
+}
+
+.animate-reverse {
+    -webkit-animation-direction: reverse;
+    animation-direction: reverse;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+.badge {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.badge-deleted {
+    border: 1px solid #F22F2F;
+    color: #F22F2F;
+}
+
+.badge-completed {
+    border: 1px solid #00C853;
+    color: #00C853;
+}
+
+.badge-inprogress {
+    border: 1px solid #FF7729;
+    color: #FF7729;
+}
+
+.btn-secondary {
+    color: #858C82;
+    border-color: #CECECE;
+    background-color: #fff;
+    box-shadow: none;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: #fafafa;
+        color: #858C82;
+    }
+
+    &.active {
+        background-color: #2962FF;
+        border-color: #1F56ED;
+        color: #fff;
+    }
+}
+
+.show > .btn-secondary.dropdown-toggle {
+    background-color: #fafafa;
+    color: #858C82;   
+}
+
+label {
+    font-size: 14px !important;
+    margin-bottom: .6rem !important;
+}
+
+.error-message {
+    margin: 0;
+    font-size: 12px;
+    color: #ff1f1f;
+}
+
+.card-section {
+    margin: 50px 0;
+}
+
+.card-section-header {
+    margin-bottom: 35px;
+}
+
+.card-section-title {
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    color: #00C853;
+
+    .icon {
+        margin-right: 8px;
+    }
+}
+
+.card-section-description {
+    color: #858C82;
+}
+
+.hide-first {
+    display: none;
+}
+
+.popover {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.popover-title {
+    background: #fff;
+    padding: 0 0 10px 0;
+    font-size: 16px;
+}
+
+.popover-content {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 15px;
+    font-size: 13px;
+
+    .row-item {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+    }
+}
+
+.page-link {
+    border: 0;
+    border-radius: 3px;
+}
+
+.rotating-gears {
+    display: inline-block;
+    position: relative;
+    padding: 2em 0;
+    margin-right: 3.5em;
+
+    .gear-top,
+    .gear-bottom {
+        position: absolute;
+        left: 6em;
+    }
+
+    .gear-top {
+        top: .5em;
+    }
+
+    .gear-bottom {
+        bottom: 1em;
+    }
+}
+
+hr.separator-line {
+    border-color: #D9E0D5;
+}
+
+.tooltip.show {
+    opacity: 1;
+}
+
+.tooltip-inner {
+    background-color: #fff;
+    border-radius: 2px;
+    color: #3A3F37;
+    box-shadow: 0 0 5px rgba(0,0,0,.1);
+}
+
+.tooltip.bs-tether-element-attached-bottom .tooltip-inner:before, 
+.tooltip.tooltip-top .tooltip-inner:before {
+    border-top-color: #fff;
+}
+
+.page-info {
+    margin: 0;
+    color: #2962FF;
+    background-color: rgba(#2962FF, 0.06);
+    padding: 10px 15px;
+    border-radius: 5px;
+
+    .icon {
+        vertical-align: sub;
+        margin-right: 5px;
+    }
+}
+
+.spinning-progress {
+    margin-top: 5rem;
+    text-align: center;
+
+    .text {
+        display: block;
+        font-size: 18px;
+    }
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.btn {
+    font-weight: 600;
+    
+    svg {
+        vertical-align: sub;
+    }
+}

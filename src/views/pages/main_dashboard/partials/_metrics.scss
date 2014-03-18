@@ -1,0 +1,130 @@
+.metric-item {
+    text-align: center;
+    position: relative;
+
+    .value,
+    .title {
+        display: block;
+
+        &:first-of-type {
+            margin-bottom: 5px;
+        }
+    }
+
+    .value {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .title {
+        font-size: 14px;
+    }
+
+    &.metric-box {
+        margin: 0 1rem 1em 1rem;
+        width: 100%;
+        height: 12em;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        border: 1px solid #D2EAC4;
+        border-radius: 3px;
+        background-color: rgba(#5FFF00, .05);
+
+        .title {
+            color: #4B6C59;
+            font-size: 16px;
+        }
+
+        .value {
+            color: #00C853;
+            font-size: 26px;
+        }
+
+        &.box-blue {
+            background-color: rgba(#0085FF, .05);
+            border-color: rgba(#0057FF, .12);
+
+            .title {
+                color: #5B6C80;
+            }
+    
+            .value {
+                color: #5287C8;
+            }
+
+            svg path {
+                fill: #B9CEDC;
+            }
+        }
+    }
+
+    .help {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+
+    .btn-refresh {
+        position: absolute;
+        bottom: 0;
+        right: 5px;
+    }
+
+    .info {
+        position: absolute;
+        bottom: 5px;
+        left: 5px;
+        font-size: 10px;
+    }
+}
+
+.value-change {
+    &:before {
+        content: '';
+        display: inline-block;
+        width: 17px;
+        height: 10px;
+        margin-right: 5px;
+        background-repeat: no-repeat;
+    }
+    &.up {
+        color: #00C853;
+
+        &:before {
+            background-image: url('data:image/svg+xml;charset=UTF-8,<svg width="17" height="10" viewBox="0 6 17 10" xmlns="http://www.w3.org/2000/svg"><path fill="#00C853" fill-rule="evenodd" d="M11.6666667 6L13.575 7.90833333 9.50833333 11.975 6.175 8.64166667 0 14.825 1.175 16l5-5 3.33333333 3.3333333 5.24999997-5.24166663L16.6666667 11V6z"/></svg>');
+        }
+    }
+
+    &.down {
+        color: #F22F2F;
+
+        &:before {
+            background-image: url('data:image/svg+xml;charset=UTF-8,<svg width="17" height="10" viewBox="0 5 17 10" xmlns="http://www.w3.org/2000/svg"><path fill="#F22F2F" fill-rule="evenodd" d="M11.6666667 15L13.575 13.0916667 9.50833333 9.025 6.175 12.3583333 0 6.175 1.175 5l5 5 3.33333333-3.33333333 5.24999997 5.24166663L16.6666667 10v5z"/></svg>');
+        }
+    }
+}
+
+.metric-group {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 40%;
+
+    > div {
+        flex: 0 0 40%;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .metric-group {
+        flex: 0 0 30%;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .metric-group {
+        flex: 0 0 22%;
+    }
+}

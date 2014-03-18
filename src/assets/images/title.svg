@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="66px" viewBox="0 0 65 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>rectangle copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.5">
+        <g id="Acceler-List-Green--TRUE-Copy" transform="translate(-931.000000, -2095.000000)" fill="#64CB31">
+            <g id="Customer" transform="translate(435.000000, 2091.000000)">
+                <g id="title" transform="translate(160.000000, 0.000000)">
+                    <g id="rectangle-copy" transform="translate(332.000000, 0.000000)">
+                        <rect id="Rectangle-3" transform="translate(36.793298, 37.119753) rotate(-330.000000) translate(-36.793298, -37.119753) " x="10.1851895" y="9.61975266" width="53.2162162" height="55" rx="13"></rect>
+                        <rect id="Rectangle-3-Copy" transform="translate(36.929715, 37.186399) rotate(-330.000000) translate(-36.929715, -37.186399) " x="16.0083778" y="15.563788" width="41.8426741" height="43.2452219" rx="13"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

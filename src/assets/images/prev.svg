@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 17</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Acceler-List-Green--TRUE-Copy" transform="translate(-606.000000, -2450.000000)">
+            <g id="Customer" transform="translate(435.000000, 2091.000000)">
+                <g id="Group-11" transform="translate(171.000000, 354.000000)">
+                    <g id="Group-17" transform="translate(0.000000, 5.000000)">
+                        <circle id="Oval-7-Copy" fill="#64CB31" cx="30" cy="30" r="30"></circle>
+                        <path d="M21.2796024,34.618769 C20.4306727,35.3254459 19.1696045,35.2101273 18.4629276,34.3611976 C17.7562507,33.512268 17.8715694,32.2511997 18.720499,31.5445228 L27.2276672,24.4628771 C27.9775252,23.8386707 29.0683471,23.8466178 29.8090308,24.4816834 L38.0684282,31.5633291 C38.9069714,32.2823 39.003904,33.5449146 38.2849331,34.3834578 C37.5659623,35.222001 36.3033477,35.3189336 35.4648045,34.5999627 L28.4881446,28.6181422 L21.2796024,34.618769 Z" id="arrow_left" fill="#FFFFFF" fill-rule="nonzero" transform="translate(28.383326, 29.540848) rotate(-90.000000) translate(-28.383326, -29.540848) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
